@@ -1,0 +1,36 @@
+[33mcommit b535b792577541d0c00e30fbb733a4822de6e4e8[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Merge: 16ad5bf c156f04
+Author: RNTVNisNhut <ntn2k3kg@gmail.com>
+Date:   Sun Dec 4 18:49:37 2022 +0700
+
+    Merge branch 'main' of https://github.com/RNTVNisNhut/Web-An-Giang
+
+[33mcommit 16ad5bfeace1b56589d1bb1dfa1e99ea09843bc6[m
+Author: RNTVNisNhut <ntn2k3kg@gmail.com>
+Date:   Sun Dec 4 18:46:17 2022 +0700
+
+     Commit để cập nhật code
+
+[33mcommit c156f04b5ccdf44c247fd271420cc9e3f682e055[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Nguyenvanle <lelacquoi@gmail.com>
+Date:   Sun Dec 4 17:53:38 2022 +0700
+
+    change folder
+
+[33mcommit 7141b98ae1cd6309ef05f6607024e1914de57f68[m
+Author: Nguyenvanle <lelacquoi@gmail.com>
+Date:   Sun Dec 4 15:42:41 2022 +0700
+
+    phần header
+
+[33mcommit 1f0857e70f79518a1495dd44b48eb66a3ecc0586[m
+Author: RNTVNisNhut <ntn2k3kg@gmail.com>
+Date:   Thu Nov 17 21:29:38 2022 +0700
+
+     Thêm phần main + Footer của ông Thiên
+
+[33mcommit 72093f424539f205085aa61692eb1f31f5aa3c98[m[33m ([m[1;31morigin/Test1[m[33m)[m
+Author: RNTVNisNhut <ntn2k3kg@gmail.com>
+Date:   Thu Nov 17 21:22:29 2022 +0700
+
+    first commit
