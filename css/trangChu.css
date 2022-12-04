@@ -37,6 +37,10 @@ div {
     font-size: 22px !important;
 }
 
+.text-blue {
+    color: #00ADB5;
+}
+
 /* General */
 .logo_img {
     width: 100px;
