@@ -1,0 +1,8 @@
+/* Services Ic*/
+.services-icon-wap {transition: .3s;}
+.services-icon-wap:hover, .services-icon-wap:hover i {color: #EEEEEE;}
+.services-icon-wap:hover {background: #00ADB5;}
+
+.text-blue {
+    color: #00ADB5;
+}
