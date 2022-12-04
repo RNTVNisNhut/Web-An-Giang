@@ -5,6 +5,63 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 } 
+    /* Chỉnh sữa của Lẹ phần header */
+    /* Typography */
+body,
+ul,
+li,
+p,
+a,
+label,
+input,
+div {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+}
+
+.h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px !important;
+    font-weight: 200 !important;
+}
+
+.h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px !important;
+    font-weight: 300;
+}
+
+.h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px !important;
+}
+
+/* General */
+.logo_img {
+    width: 100px;
+    height: auto;
+}
+
+.logo_text {
+    font-weight: 500 !important;
+}
+
+
+/* Nav */
+#custom_nav_top {
+    min-height: 40px;
+}
+
+#custom_nav_top * {
+    font-size: .9em !important;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+
     /* header-top  */
 
 #header-top
@@ -54,11 +111,6 @@
     color: white;
 }
     /* header-bot */
-
-#header-bot-nav
-{
-
-}
 #header-nav
 {
     text-align: center;

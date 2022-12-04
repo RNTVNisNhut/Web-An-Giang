@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Bootstrap 5.2.2-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="/trangChu.css">
 </head>
 
@@ -18,73 +18,100 @@
 
 <body>
     <header">
-        <!-- Dòng trên cùng  -->
-        <div id="header-top" class="bg-dark">
-            <div class="container">
-                <div class=" mb-1">
+        <!-- Dòng trên  -->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark d-none d-lg-block" id="custom_nav_top">
+          <div class="container-lg text-light">
+              <div>
+                  <i class="fa fa-envelope mx-2"></i>
+                  <a class="navbar-sm-brand text-light text-decoration-none"
+                      href="mailto:info@company.com">dulichangiang@gmail.com</a>
+                  <i class="fa fa-phone mx-2"></i>
+                  <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
+              </div>
+              <div>
+                  <a class="text-light" href="https://fb.com/" target="_blank" rel="sponsored"><i
+                          class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                  <a class="text-light" href="https://www.instagram.com/" target="_blank"><i
+                          class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                  <a class="text-light" href="https://twitter.com/" target="_blank"><i
+                          class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                  <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i
+                          class="fab fa-linkedin fa-sm fa-fw"></i></a>
+              </div>
+          </div>
+      </nav>
 
-                
-                <div class="row cols-12 justify-content-end">
-                    <!-- Left -->
-                    <div class="d-flex col-12 col-sm-6 me-sm-5 col-lg-6 justify-content-start">
-                        <div class="d-flex ">
-                            <i id="icon-top-header" class="fa-solid fa-envelope"></i>
-                            <p>info@company.com</p>
-                            <i id="icon-top-header" class="fa-solid fa-phone"></i>
-                            <p>012-345-678</p>
-                        </div>
-
+        <!-- Dòng dưới -->
+        <nav class="navbar navbar-expand-lg navbar-lig bg-light" aria-label="Offcanvas navbar large">
+          <div class="container-lg">
+            <a class="btn p-0" href="#logo">
+              <img src="img/header/it6hhW-travel-best-logo-png.png" alt="logo" class="logo_img">  
+              </a>
+              <div class="navbar-brand text-dark logo_text h2 align-self-center m-0">
+                <a class="btn-dark text-decoration-none p-0 text-dark" href="#logo">
+                  <h1 class="m-0">Du Lịch An Giang</h1>
+                </a>
+              </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Du Lịch An Giang</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="trangChu.html">Trang Chủ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Giới Thiệu</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dịch Vụ
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Đặt vé</a></li>
+                      <li><a class="dropdown-item" href="#">Cẩm nang</a></li>
+                      <li><a class="dropdown-item" href="#">Địa điểm</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Liên hệ</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <div class="position-relative ">
+                  <div class="align-items-center">
+                    <div class="input-group mt-1">
+                      <input type="search" class="form-control" placeholder="Nhập từ khóa cần tìm"
+                          aria-label="Search" aria-describedby="button-addon2">
+                      <button class="btn btn-dark" type="button" id="button-addon2">
+                          <i class="fa fa-search "></i>
+                      </button>
                     </div>
-                    <!-- Right -->
-                    <div class="d-flex col-12 text-center col-sm-5 justify-content-sm-end">
-                        <i id="icon-top-header" class="fa-brands fa-facebook"></i>
-                        <i id="icon-top-header" class="fa-brands fa-square-instagram"></i>
-                        <i id="icon-top-header" class="fa-brands fa-square-twitter"></i>
-                        <i id="icon-top-header" class="fa-brands fa-youtube"></i>
-                    </div>
+                  </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <div class="dropdown bg-light">
+                  <a href="#" class="d-block link-dark text-decoration-none dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button class="btn btn-light mx-1">
+                      <i class="fa fa-2x fa-circle-user"></i>
+                    </button>
+                  </a>
+                  <ul class="dropdown-menu text-small">
+                    <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+                    <li><a class="dropdown-item" href="#">Đăng ký</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Thông tin</a></li>
+                  </ul>
                 </div>
+              </div>
+              </div>
             </div>
-            </div>
-        </div>
-
-        <!-- Dòng giữa  -->
-        <div id="header-mid">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-12 text-center col-sm-5 text-sm-start ">
-                        <img id="header-mid-logo" src="/img/header/it6hhW-travel-best-logo-png.png" alt="">
-                        <img id="content-mid-logo" src="/img/header/Du lịch An giang.png" alt="">
-                    </div>
-
-                    <div
-                        class="d-flex col-12 text-center col-sm-7 text-sm-end col-md-4 mt-md-4 ms-md-5 col-lg-6 m-0 p-0 justify-content-lg-end ">
-                        <div class="position-relative ">
-                            <input id="input-search" type="text">
-                            <button id="button-search"
-                                class="position-absolute ms-1 mt-1 m-0 ms-sm-5 ps-sm-5 ms-md-0 ps-md-0  float-lg-end ">
-                                <i class="fa-solid fa-magnifying-glass mb-2"></i></button>
-                        </div>
-
-                        <a id="iconUser-header-mid" href="#"><i class="fas fa-user-circle"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Dòng cuối  -->
-        <nav id="header-bot-nav" class="bg-dark ">
-            <div class="container">
-                <div id="header-nav" class="row cols-12 d-flex ">
-                    <a class="text-center col-md-2 lh-lg fs-5 py-lg-2 p-lg-0 bg-Secondary" href="#">Trang Chủ</a>
-                    <a class="text-center col-md-2 lh-lg fs-5 py-lg-2 p-lg-0 bg-Secondary" href="#">Cẩm Nang</a>
-                    <a class="text-center col-md-2 lh-lg fs-5 py-lg-2 p-lg-0 bg-Secondary" href="#">Địa Điểm</a>
-                    <a class="text-center col-md-2 lh-lg fs-5 py-lg-2 p-lg-0 bg-Secondary" href="#">Liên Hệ</a>
-                    <a class="text-center col-md-2 lh-lg fs-5 py-lg-2 p-lg-0 bg-Secondary" href="#">Đặt Vé</a>
-                    <a class="text-center col-md-2 lh-lg fs-5 py-lg-2 p-lg-0 bg-Secondary" href="#">Giới Thiệu</a>
-                </div>
-
-            </div>
+          </div>
         </nav>
     </header>
 
@@ -295,8 +322,11 @@
         </div>
       
       </footer>
-
-
+      <!--jQuery-->
+      <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+          integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+      <!--Bootstrap-->
+      <script src="js/bootstrap.bundle.js"></script>
 </body>
 
 
