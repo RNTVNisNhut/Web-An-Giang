@@ -1,0 +1,52 @@
+#total-tour
+{
+    padding-left: 30%;
+}
+.tour-
+{
+    width: 90%;
+}
+.img-tour
+{
+    width: 100%;
+}
+h3
+{
+    color: #006886;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    display:inline-block;
+}
+
+.time-tour
+{
+   color: #4e4e4e;
+font-size: 13px; 
+}
+.time-small-tour
+{
+    font-size: 13px;
+}
+.cost-underline
+{
+    color: #9a9999;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.cost-real
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fc0;
+}
+.button-end
+{
+    width: 12%;
+    height: 9%;
+    color: cc990e;
+    font-weight: bold;
+    border: 2px solid #cc990e;
+}
