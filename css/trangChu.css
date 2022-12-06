@@ -41,6 +41,10 @@ div {
     color: #00ADB5;
 }
 
+.bg-gray {
+    background-color: #3A4750;
+}
+
 /* General */
 .logo_img {
     width: 100px;

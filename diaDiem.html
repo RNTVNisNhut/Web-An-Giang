@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,10 +12,8 @@
     <!--Bootstrap 5.2.2-->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/trangChu.css">
+    <link rel="stylesheet" href="css/diaDiem.css">
 </head>
-
-
-
 
 <body>
     <header>
@@ -123,10 +122,486 @@
         </nav>
     </header>
 
-    <main>
-        <section id="places" class="container bg-dark">
-            
+    <main class="bg-gray py-3" >
+        <section id="khuDuLich" class="container my-5">
+            <div class="bg-white border rounded-5">
+                <!--Carousel Wrapper-->
+
+                <section class="section_places text-center">
+                    <div id="carousel_multi_khuDuLich" class="carousel slide carousel-multi-item"
+                        data-bs-ride="carousel">
+                        <!--Control-->
+                        <div class="control-top">
+
+                            <h1 class="h1 text-center">Những khu du lịch nổi tiếng An Giang</h1>
+                            <a class="btn_blue wave_effect wave_light" href="#carousel_multi_khuDuLich"
+                                data-bs-slide="prev">
+                                <i class="fas fa-chevron-left"></i>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="btn_blue wave_effect wave_light" href="#carousel_multi_khuDuLich"
+                                data-bs-slide="next">
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <!--/Control-->
+                        <!--Indicator-->
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carousel_multi_khuDuLich" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#carousel_multi_khuDuLich" data-bs-slide-to="1"></li>
+                        </ol>
+                        <!--Indicator-->
+                        <!--Slide-->
+                        <div class="carousel-inner" role="listbox">
+                            <!--First Slide-->
+                            <div class="carousel-item active">
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="img/diaDiem/khuDuLich/traSu02.webp"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-blue"> Rừng Tràm Trà Sư </h4>
+                                            <p class="card-text">
+                                                Địa điểm: Xã Văn Giáo, huyện Tịnh Biên, tỉnh An Giang. Đây là khu rừng
+                                                tràm đẹp nhất và nổi tiếng nhất Việt Nam, với sinh cảnh tự nhiên rộng
+                                                lớn của vùng đồng bằng sông Cửu Long. Đặc biệt, vào mùa nước nổi, hãy
+                                                đến rừng tràm Trà Sư để tận hưởng vẻ đẹp độc đáo thông qua chuyến đi
+                                                thuyền theo con nước len lỏi vào rừng xanh. Từ đài quan sát cao 30m
+                                                trong khuôn viên khu du lịch, bạn có thể chiêm ngưỡng toàn cảnh bức
+                                                tranh rừng tràm mênh mông bằng kính viễn vọng.
+                                            </p>
+                                            <a class="btn btn-dark wave_effect wave_light" href="https://goo.gl/maps/MXMjiSPgyK5TMCwd8">
+                                                Xem chi tiết </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="img/diaDiem/khuDuLich/nuiSap.webp"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-blue"> Núi Sập </h4>
+                                            <p class="card-text">
+                                                Địa chỉ: Thị trấn Núi Sập, huyện Thoại Sơn, tỉnh An Giang. Khu du lịch
+                                                Núi Sập là tên gọi chung của cụm địa điểm tham quan hồ Ông Thoại và đền
+                                                thờ Thoại Ngọc Hầu, tạo nên khu du lịch sinh thái hấp dẫn ở An Giang.
+                                                Không chỉ có những công trình nhân tạo hài hòa với thiên nhiên yên bình,
+                                                khu du lịch Núi Sập còn mang nhiều dấu ấn của thời mở cõi xa xưa. Những
+                                                trải nghiệm khám phá núi non, bơi xuồng, đạp vịt, hay lướt trên xe lửa
+                                                cao tốc sẽ khiến cho chuyến đi Núi Sập càng thêm thú vị.
+                                            </p>
+                                            <a class="btn btn-dark wave_effect wave_light" href="https://goo.gl/maps/ezEkwGpuv7NmbH5Q9" > Xem chi tiết </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="img/diaDiem/khuDuLich/nuiKet.webp"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-blue"> Núi Két </h4>
+                                            <p class="card-text">
+                                                Địa chỉ: Xã Thới Sơn, huyện Tịnh Biên, tỉnh An Giang.
+                                                Núi Két là một trong những ngọn núi đặc biệt nằm trong vùng Thất Sơn,
+                                                với mỏm đá trên cao có hình mỏ chim két. Cũng như những ngọn núi khác
+                                                trong vùng, núi Két chinh phục du khách bởi quang cảnh thiên nhiên rộng
+                                                lớn, núi non chập chùng bên cạnh nhiều hang động sâu rộng gắn liền với
+                                                những câu chuyện huyền bí. Khu du lịch Núi Két còn là điểm đến tâm linh
+                                                cho những ai đang tìm nơi chiêm bái, thờ tự như: đình Thới Sơn, chùa
+                                                Thới Sơn.
+                                            </p>
+                                            <a class="btn btn-dark wave_effect wave_light" href="https://goo.gl/maps/DFmkK9JPCnbpmsPn6" > Xem chi tiết </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/First Slide-->
+                            <!--Second Slide-->
+                            <div class="carousel-item">
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="img/diaDiem/khuDuLich/nuiCam.webp"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-blue"> Núi Cấm </h4>
+                                            <p class="card-text">
+                                                Địa chỉ: Xã An Hảo, huyện Tịnh Biên, tỉnh An Giang.
+                                                Khu du lịch Núi Cấm có tên đầy đủ là Khu du lịch Lâm Viên Núi Cấm, nằm
+                                                trong vùng Thất Sơn hùng vĩ. Khu du lịch nổi tiếng này kết hợp các dịch
+                                                vụ nghỉ dưỡng, tâm linh, và vui chơi giải trí, đặc biệt là tuyến cáp
+                                                treo hiện đại nhất khu vực đồng bằng sông Cửu Long.
+                                                Nếu có dịp đến với An Giang, bạn sẽ ngỡ ngàng trước khung cảnh thiên
+                                                nhiên và khí hậu trong lành ở đây, mà trong đó, núi Cấm là một trong
+                                                những nơi hứa hẹn đem lại những trải nghiệm tuyệt vời nhất.
+                                            </p>
+                                            <a class="btn btn-dark wave_effect wave_light" href="https://goo.gl/maps/x1gto4XfwQHED1R88"> Xem chi tiết </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="img/diaDiem/khuDuLich/coTo.webp"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-blue"> Núi Cô Tô </h4>
+                                            <p class="card-text">
+                                                Địa chỉ: Thị trấn Cô Tô, huyện Tri Tôn, tỉnh An Giang. Nếu bạn nghĩ chỉ
+                                                có đi Đà Lạt hay Sapa mới săn được mây thì đó là chưa ghé đến khu du
+                                                lịch núi Cô Tô rồi. Từ một trong những đỉnh núi cao nhất An Giang, bạn
+                                                sẽ choáng ngợp trước lượng mây dày đặc, bao phủ trắng xóa, che lấp cả
+                                                huyện Tri Tôn.
+                                                Bên cạnh việc chiêm ngưỡng khung cảnh thiên nhiên thanh bình tại núi Cô
+                                                Tô, bạn còn có cơ hội tìm hiểu cuộc sống sinh hoạt của người Khmer và
+                                                được tham quan các công trường khai thác đá.
+                                            </p>
+                                            <a class="btn btn-dark wave_effect wave_light" href="https://goo.gl/maps/ucaUsjmndHNiBLDT9"> Xem chi tiết </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="img/diaDiem/khuDuLich/nuiSam.webp"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-blue"> Núi Sam </h4>
+                                            <p class="card-text">
+                                                Địa chỉ: Phường Núi Sam, thành phố Châu Đốc, tỉnh An Giang. Nếu bạn muốn
+                                                một chuyến du lịch tâm linh đích thực, kết hợp nghỉ dưỡng, thì một
+                                                chuyến đi đến chắc chắn làm bạn hài lòng. Có đến 200 đền, chùa, am, miếu
+                                                tọa lạc rải rác từ chân núi, sườn núi, mãi đến tận đỉnh núi. Từ trên
+                                                đỉnh núi Sam, bạn có thể ngắm nhìn toàn cảnh thành phố Châu
+                                                Đốc, các vùng đồng bằng trung du, kênh Vĩnh Tế lớn nhất miền Tây, và tận
+                                                hưởng bầu không khí trong lành, yên tĩnh.
+                                            </p>
+                                            <a class="btn btn-dark wave_effect wave_light" href="https://goo.gl/maps/xB8o6B6Ee7Xo4byj6"> Xem chi tiết </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Second Slide-->
+                        </div>
+                        <!--/Slide-->
+                    </div>
+                    <!--/Carousel Wrapper-->
+                </section>
+            </div>
         </section>
+        <section id="chua" class="container my-5">
+            <div class="bg-white border rounded-5">
+                <!--Carousel Wrapper-->
+
+                <section class="section_places text-center">
+                    <div id="carousel_multi_chua" class="carousel slide carousel-multi-item" data-bs-ride="carousel">
+                        <!--Control-->
+                        <div class="control-top">
+
+                            <h1 class="h1 text-center">Những ngôi chùa nổi tiếng An Giang</h1>
+                            <a class="btn_blue wave_effect wave_light" href="#carousel_multi_chua" data-bs-slide="prev">
+                                <i class="fas fa-chevron-left"></i>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="btn_blue wave_effect wave_light" href="#carousel_multi_chua" data-bs-slide="next">
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <!--/Control-->
+                        <!--Indicator-->
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carousel_multi_chua" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#carousel_multi_chua" data-bs-slide-to="1"></li>
+                        </ol>
+                        <!--Indicator-->
+                        <!--Slide-->
+                        <div class="carousel-inner" role="listbox">
+                            <!--First Slide-->
+                            <div class="carousel-item active">
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="img/diaDiem/chua/longSon.webp"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-blue"> Chùa Long Sơn Núi Sam </h4>
+                                            <p class="card-text">
+                                                Địa chỉ: Phường Vĩnh Phước, thành phố Châu Đốc, tỉnh An Giang. Nếu bạn
+                                                đã ghé miếu Bà Chúa Xứ núi Sam thì hãy dành thời gian tham quan chùa
+                                                Long Sơn nằm gần đó, nổi bật với vẻ cổ kính, trầm mặc. Khung cảnh núi
+                                                Sam nhìn từ chùa Long Sơn được nhiều người đánh giá là đẹp miễn chê,
+                                                nhất
+                                                là lúc hoàng hôn. Thỉnh thoảng, tiếng chuông chùa vọng ngân từ trên cao
+                                                sẽ khiến bạn thấy lắng đọng, bình yên.
+                                            </p>
+                                            <a class="btn btn-dark wave_effect wave_light" href="https://goo.gl/maps/8aXXeKw8eBn6meXn8">
+                                                Xem chi tiết </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="img/diaDiem/chua/huynhDao.webp"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-blue"> Chùa Huỳnh Đạo </h4>
+                                            <p class="card-text">
+                                                Địa chỉ: Đường Tân Lộ Kiều Lương, phường Núi Sam, thành phố Châu Đốc,
+                                                tỉnh An Giang. Cách miếu Bà Chúa Xứ núi Sam khoảng 1km chính là ngôi
+                                                chùa rồng Huỳnh Đạo nổi tiếng của An Giang. Ngôi chùa được xây dựng theo
+                                                kiến trúc chùa Trung Quốc vào năm 1996, với điểm nhấn là tượng chín con
+                                                rồng tượng trưng cho vùng đồng bằng sông Cửu Long nổi bật giữa hồ sen.
+                                                Bên cạnh đó, các bức tượng Phật uy nghi hài hòa với cảnh quan thiên
+                                                nhiên trong khuôn viên rộng lớn, giúp cho chùa Huỳnh Đạo có một sức hút
+                                                lớn với du khách và Phật tử.
+                                            </p>
+                                            <a class="btn btn-dark wave_effect wave_light" href="https://goo.gl/maps/WftTa6J4fap8x8zF8" > Xem chi tiết </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="img/diaDiem/chua/vanLinh.webp"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-blue"> Chùa Vạn Linh Núi Cấm </h4>
+                                            <p class="card-text">
+                                                Địa chỉ: Xã An Hảo, huyện Tịnh Biên, tỉnh An Giang. Vồ Bồ Hong là vồ cao
+                                                nhất núi Cấm, nơi tọa lạc ngôi chùa Vạn Linh uy nghi hướng ra hồ Thủy
+                                                Liêm, tạo thành vị trí tựa sơn hướng thủy đắc địa, kết hợp với chùa Phật
+                                                Lớn ở đỉnh đồi bên kia, tạo nên sự hài hòa giữa kiến trúc tôn giáo và
+                                                cảnh sắc tự nhiên.
+                                                Để vãn cảnh chùa, bạn có thể sử dụng cáp treo để tận hưởng không khí mát
+                                                mẻ và ngắm nhìn vẻ đẹp tựa thiên đường của núi Cấm.
+                                            </p>
+                                            <a class="btn btn-dark wave_effect wave_light" href="https://goo.gl/maps/QPW6xPQydrS6t1rb9" > Xem chi tiết </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/First Slide-->
+                            <!--Second Slide-->
+                            <div class="carousel-item">
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="img/diaDiem/chua/kohKas.webp"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-blue"> Chùa Koh Kas </h4>
+                                            <p class="card-text">
+                                                Địa chỉ: Xã Châu Lăng, huyện Tri Tôn, tỉnh An Giang. Nếu phải chọn một
+                                                nơi để tôn vinh văn hóa Khmer ở vùng đất Tây Nam Bộ thì hãy đến chùa Koh
+                                                Kas, hay còn gọi là chùa Tual Prasat ở An Giang nhé.
+                                                Ngôi chùa có thiết kế đặc biệt với phần cổng cách chùa bằng con đường
+                                                làng quanh co khoảng 500m, hai bên là đồng lúa tuyệt đẹp. Cổng chùa gây
+                                                ấn tượng mạnh mẽ với kiến trúc Khmer cổ nổi bật giữa nền trời xanh.
+                                                Chính vì vậy, người dân còn gọi là cổng Trời An Giang, cổng Thiên Đàng,
+                                                hay cổng Thời Gian.
+                                            </p>
+                                            <a class="btn btn-dark wave_effect wave_light" href="https://goo.gl/maps/7vVqWewraNemRh2g7" > Xem chi tiết </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="img/diaDiem/chua/chuaLau.webp"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-blue"> Chùa Lầu (Chùa Phước Lâm) </h4>
+                                            <p class="card-text">
+                                                Địa chỉ: Khóm Xuân Phú, thị trấn Tịnh Biên, huyện Tịnh Biên, tỉnh An
+                                                Giang. Chùa Lầu, hay còn gọi là chùa Phước Lâm, là một ngôi chùa đã có
+                                                lịch sử hơn 130 năm, mới đây được xây lại với thiết kế 3 tầng lầu xếp
+                                                chồng lên nhau rất ấn tượng, được cho là ảnh hưởng từ kiến trúc chùa
+                                                Nhật Bản.
+                                                Chùa Lầu rất được lòng hội mê “sống ảo” bởi màu đỏ nổi bật và khuôn viên
+                                                ngập tràn cỏ cây, hoa lá. Ngoài ra, chiếc cầu treo được bắc vào những
+                                                cây thốt nốt quanh khuôn viên chùa cũng là điểm check-in yêu thích của
+                                                nhiều bạn trẻ.
+                                            </p>
+                                            <a class="btn btn-dark wave_effect wave_light" href="https://goo.gl/maps/43sHesQrcUgi1EsZ6" > Xem chi tiết </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="img/diaDiem/chua/kimTien.webp"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-blue"> Chùa Kim Tiên </h4>
+                                            <p class="card-text">Địa chỉ: Xã An Phú, huyện Tịnh Biên, tỉnh An Giang.
+                                                Chùa Kim Tiên được đánh giá là ngôi chùa bề thế, nguy nga bậc nhất vùng
+                                                Bảy Núi. Điểm nhấn của chùa Kim Tiên là bức tượng Phật A Di Đà cao 24m
+                                                ngự trên nóc chùa. Rất nhiều bạn trẻ ví cảnh quan chùa Kim Tiên đẹp tựa
+                                                phim trường cổ trang nên thường rủ nhau đến đây “sống ảo”. Chùa có đãi
+                                                cơm chay và phát nước cho người dân sau khi tham quan.
+                                            </p>
+                                            <a class="btn btn-dark wave_effect wave_light" href="https://goo.gl/maps/VCTuQRUseoyapzvf7" > Xem chi tiết </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Second Slide-->
+                        </div>
+                        <!--/Slide-->
+                    </div>
+                    <!--/Carousel Wrapper-->
+                </section>
+            </div>
+        </section>
+        <section id="khac" class="container my-5">
+            <div class="bg-white border rounded-5">
+                <!--Carousel Wrapper-->
+
+                <section class="section_places text-center">
+                    <div id="carousel_multi_khac" class="carousel slide carousel-multi-item" data-bs-ride="carousel">
+                        <!--Control-->
+                        <div class="control-top">
+
+                            <h1 class="h1 text-center">Những địa điểm thú vị khác </h1>
+                            <a class="btn_blue wave_effect wave_light" href="#carousel_multi_khac" data-bs-slide="prev">
+                                <i class="fas fa-chevron-left"></i>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="btn_blue wave_effect wave_light" href="#carousel_multi_khac" data-bs-slide="next">
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <!--/Control-->
+                        <!--Indicator-->
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carousel_multi_khac" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#carousel_multi_khac" data-bs-slide-to="1"></li>
+                        </ol>
+                        <!--Indicator-->
+                        <!--Slide-->
+                        <div class="carousel-inner" role="listbox">
+                            <!--First Slide-->
+                            <div class="carousel-item active">
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="img/diaDiem/khac/baChuc.webp"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-blue"> Nhà Mồ Ba Chúc </h4>
+                                            <p class="card-text">
+                                                Địa chỉ: Đường Ngô Tự Lợi, thị trấn Ba Chúc, huyện Tri Tôn, tỉnh An
+                                                Giang
+                                                Nhà mồ Ba Chúc là di tích lịch sử quốc gia, nơi lưu giữ hộp sọ và xương
+                                                cốt của những bạn nhân Ba Chúc bị thiệt mạng trong vụ thảm sát Khmer Đỏ
+                                                vào năm 1978 và nhiều nhiều chứng tích chiến tranh. Hàng năm, lễ giỗ tập
+                                                thể được tổ chức vào ngày 16 tháng 3 âm lịch, thu hút hàng nghìn du
+                                                khách, tín đồ tôn giáo và thân nhân của các nạn nhân đến cúng viếng, cầu
+                                                nguyện.
+
+                                            </p>
+                                            <a class="btn btn-dark wave_effect wave_light" href="https://goo.gl/maps/xQ9iQPR579Yy6Q2X6">
+                                                Xem chi tiết </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="img/diaDiem/khac/thoCam.webp"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-blue"> Làng Dệt Thổ Cẩm </h4>
+                                            <p class="card-text">
+                                                Địa chỉ: Ấp Phũm Soài, xã Châu Phong, huyện Tân Châu, tỉnh An Giang
+                                                An Giang có riêng một ngôi làng văn hóa Chăm, cũng là làng nghề dệt thổ
+                                                cẩm còn phát triển đến ngày nay có tên là làng dệt Châu Giang. Nơi đây
+                                                nổi tiếng với các sản phẩm dệt thủ công tinh xảo như: xà rông, áo, khăn
+                                                choàng, mũ, túi xách, v.v. Bạn có thể tham quan và mua vài món đồ về làm
+                                                quà sau chuyến du lịch An Giang nè.
+                                            </p>
+                                            <a class="btn btn-dark wave_effect wave_light" href="https://goo.gl/maps/3TRtMxAqAwmXyuXv6" > Xem chi tiết </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="img/diaDiem/khac/latina.webp"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-blue"> Hồ Latina</h4>
+                                            <p class="card-text">
+                                                Địa điểm: Xã An Hảo, huyện Tịnh Biên, tỉnh An Giang
+                                                Hồ Latina còn được gọi là hồ Đá, một hồ nước nhỏ trong veo nằm dưới chân
+                                                núi Cấm, nơi dễ dàng cho bạn những bức ảnh lung linh nhất. Tựa vào vách
+                                                núi đá cao sừng sững, hồ Letina ngày ngày lặng yên đón bóng mặt trời,
+                                                tạo nên cảnh quan vô cùng ấn tượng. Nếu đến đây vào mùa lúa vàng thì
+                                                khung hình của bạn sẽ thêm màu sắc rực rỡ đó nha.
+                                            </p>
+                                            <a class="btn btn-dark wave_effect wave_light" href="https://goo.gl/maps/G7NF8H8v1i9DESRW8" > Xem chi tiết </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/First Slide-->
+                            <!--Second Slide-->
+                            <div class="carousel-item">
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="img/diaDiem/khac/oThum.webp"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-blue"> Hồ Ô Thum </h4>
+                                            <p class="card-text">
+                                                Địa điểm: xã Ô Lâm, huyện Tri Tôn, tỉnh An Giang
+                                                Cùng với Tà Pạ, Soài So, Soài Check, Ô Thum được biết đến là một trong
+                                                những hồ nước đẹp trong vùng Tri Tôn. Vị trí tuyệt đẹp dựa vào triền núi
+                                                và màu nước xanh ngắt của hồ Ô Thum đã thu hút không ít du khách đến
+                                                đây thả dáng “sống ảo”. Cùng món gà đốt ô thum nổi tiếng khiến bao du khách mê mẫn.
+                                            </p>
+                                            <a class="btn btn-dark wave_effect wave_light" href="https://goo.gl/maps/Nooy2t3gNFUsk3tz9" > Xem chi tiết </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="img/diaDiem/khac/xoaiSo.webp"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-blue"> Hồ Soài So </h4>
+                                            <p class="card-text">
+                                                Địa điểm: Xã Núi Tô, huyện Tri Tôn, tỉnh An Giang
+                                                Soài So là hồ nước nhân tạo lớn nhất An Giang, nổi tiếng với vẻ đẹp mênh
+                                                mang, tĩnh lặng, là điểm đến lý tưởng cho những du khách đang tìm một nơi
+                                                bình yên, sâu lắng. Hồ Soài So nép mình bên sườn núi Cô Tô, điểm tô bởi
+                                                đồng lúa và những hàng thốt nốt cao vút, tạo thành bức tranh thiên nhiên
+                                                Tri Tôn hữu tình.
+                                            </p>
+                                            <a class="btn btn-dark wave_effect wave_light" href="https://goo.gl/maps/6aAJMmtWK566mbYZA" > Xem chi tiết </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="img/diaDiem/khac/taPa.webp" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-blue"> Hồ & Chùa Tà Pạ </h4>
+                                            <p class="card-text">
+                                                Địa điểm: Xã Núi Tô, huyện Tri Tôn, tỉnh An Giang
+                                                Tà Pạ, hay còn gọi là Tri Tôn, là một trong bảy ngọn núi của vùng Thất
+                                                Sơn. Không chỉ nổi tiếng với cảnh quan tuyệt đẹp, Tà Pạ còn thu hút du
+                                                khách bởi sự cổ kính và uy nghiêm của ngôi chùa Tà Pạ trên núi. Chùa Tà
+                                                Pạ còn được gọi là chùa Núi, hoặc chùa Chưn-Num. Ngôi chùa Khmer sở hữu
+                                                vị trí độc đáo, lấp ló sau những cánh đồng lúa với kiến trúc vô cùng nổi
+                                                bật giữa rừng núi hoang sơ.
+                                            </p>
+                                            <a class="btn btn-dark wave_effect wave_light" href="https://goo.gl/maps/jVcvdjmr8QAwyLvX8" > Xem chi tiết </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Second Slide-->
+                        </div>
+                        <!--/Slide-->
+                    </div>
+                    <!--/Carousel Wrapper-->
+                </section>
+            </div>
+        </section>
+
     </main>
     <footer class="container bg-light  text-center footer">
 
@@ -166,6 +641,5 @@
     <!--Bootstrap-->
     <script src="js/bootstrap.bundle.js"></script>
 </body>
-
 
 </html>

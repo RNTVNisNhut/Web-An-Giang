@@ -1,0 +1,139 @@
+.section_places {
+    padding: 15px;
+}
+
+.carousel-multi-item {
+    margin-bottom: 5rem;
+}
+
+.carousel-multi-item .control-top {
+    margin-bottom: 1.88rem;
+    text-align: center;
+}
+
+.carousel-multi-item .control-top .btn_blue {
+    background: #00ADB5;
+}
+
+.btn_blue {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-box-shadow: 
+        0 5px 11px 0 rgb(0 0 0 / 18%), 
+        0 4px 15px 0 rgb(0 0 0 / 15%);
+    box-shadow: 
+        0 5px 11px 0 rgb(0 0 0 / 18%), 
+        0 4px 15px 0 rgb(0 0 0 / 15%);
+    -webkit-transition: all .2s
+        ease-in-out;
+    transition: all .2s ease-in-out;
+    width: 47px;
+    height: 47px;
+}
+
+.wave_effect, .wave_light {
+    display: inline-block;
+}
+
+.wave_effect {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.btn_blue i {
+    display: inline-block;
+    width: inherit;
+    color: #fff;
+    text-align: center;
+}
+.btn_blue i {
+    font-size: 1.25rem;
+    line-height: 47px;
+}
+
+.card {
+    font-weight: 400;
+    border: 0;
+    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.col-md-4 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.carousel-multi-item [class*="col-"] {
+    float: left;
+}
+
+.carousel-multi-item .carousel-indicators {
+    margin-bottom: -1em;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.carousel-multi-item .carousel-indicators li {
+    width: 1.25rem;
+    max-width: 1.25rem;
+    height: 1.25rem;
+    margin-bottom: -3.75rem;
+    background-color: #00ADB5;
+}
+
+@media screen and (min-width: 768px) {
+.carousel-multi-item [class*="col-"] {
+    float: left;
+}}
+
+
+@media screen and (min-width: 768px) {
+.col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}}
