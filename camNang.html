@@ -1,0 +1,450 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Bootstrap 5.2.2-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/trangChu.css">
+    <link rel="stylesheet" href="css/camNang.css">
+</head>
+
+
+
+
+<body>
+    <header>
+        <!-- Dòng trên  -->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark d-none d-lg-block" id="custom_nav_top">
+            <div class="container-lg text-light">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none"
+                        href="mailto:info@company.com">dulichangiang@gmail.com</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
+                </div>
+                <div>
+                    <a class="text-light" href="https://fb.com/" target="_blank" rel="sponsored"><i
+                            class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i
+                            class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://twitter.com/" target="_blank"><i
+                            class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i
+                            class="fab fa-linkedin fa-sm fa-fw"></i></a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Dòng dưới -->
+        <nav class="navbar navbar-expand-lg navbar-lig bg-light" aria-label="Offcanvas navbar large">
+            <div class="container-lg">
+                <a class="btn p-0" href="#logo">
+                    <img src="img/header/it6hhW-travel-best-logo-png.png" alt="logo" class="logo_img">
+                </a>
+                <div class="navbar-brand text-dark logo_text h2 align-self-center m-0">
+                    <a class="btn-dark text-decoration-none p-0 text-dark" href="#logo">
+                        <h1 class="m-0 text-blue">Du Lịch An Giang</h1>
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasNavbar2"
+                    aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Du Lịch An Giang</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul
+                            class="navbar-nav justify-content-end flex-grow-1 pe-3 align-items-lg-center align-items-sm-start">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="trangChu.html">Trang Chủ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gioiThieu.html">Giới Thiệu</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dịch Vụ
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="datVe.html">Đặt vé</a></li>
+                                    <li><a class="dropdown-item" href="camNang.html">Cẩm nang</a></li>
+                                    <li><a class="dropdown-item" href="diaDiem.html">Địa điểm</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="lienHe.html">Liên hệ</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="position-relative ">
+                            <div class="align-items-center">
+                                <div class="input-group mt-2">
+                                    <input type="search" class="form-control" placeholder="Nhập từ khóa cần tìm"
+                                        aria-label="Search" aria-describedby="button-addon2">
+                                    <button class="btn btn-dark" type="button" id="button-addon2">
+                                        <i class="fa fa-search "></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <div class="dropdown bg-light">
+                                <a href="#" class="d-block link-dark text-decoration-none dropdown"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button class="btn btn-light mx-1 mt-1 mb-1">
+                                        <i class="fa fa-2x fa-circle-user"></i>
+                                    </button>
+                                </a>
+                                <ul class="dropdown-menu text-small">
+                                    <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+                                    <li><a class="dropdown-item" href="#">Đăng ký</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Thông tin</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+
+        <!-- Tin mới nhất  -->
+        <div class="pt-5 text-center">
+            <!-- <div class="space-of-element"></div> -->
+            <!-- 2 Bolg đầu tiên  -->
+            <div class="container-fluid bg-dark text-light pb-5">
+                <h1 class="pb-4 mb-5 text-uppercase pt-4" style="text-align: -webkit-center;">Tin Mới Nhất
+                    <div class="space-of-element " style="width: 20%;"></div>
+                </h1>
+                <div class="row cols-12 ps-5 pe-5">
+                    <!-- Thẻ con  -->
+                    <div class="col-6">
+                        <div class="d-flex  border border-gray border-1">
+                            <div class="w-100">
+                                <img class="img-first-1 pt-5 ps-4"
+                                    src="https://cdn3.ivivu.com/2022/06/du-lich-an-giang-b.jpg" alt="">
+                            </div>
+
+                            <div class="pt-5 ps-4">
+                                <strong class="text-start text-uppercase">
+                                    <p>Những địa điểm du lịch Tết Nguyên Đán không thể bỏ qua</p>
+                                </strong>
+
+
+                                <small>
+                                    <p class="text-light text-start mb-0">22/11/2022</p>
+                                </small>
+                                <small class="text-start fs-6">
+                                    <p>Trong chuyến du lịch Tết này, Những địa điểm du lịch này sẽ
+                                        mang đến cho bạn những trải nghiệm thật tuyệt vời...</p>
+                                </small>
+                                <div class="text-center">
+                                    <a class="button-end" href="">Xem Chi Tiết</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Thẻ con  -->
+                    <div class="col-6">
+                        <div class="d-flex border border-gray border-1 ">
+                            <div class="w-100">
+                                <img class="img-first-1 pt-5 ps-4"
+                                    src="https://dulichkhampha24.com/wp-content/uploads/2020/10/dia-diem-du-lich-an-giang.jpg"
+                                    alt="">
+                            </div>
+
+
+                            <div class="pt-5 ps-4">
+                                <strong class="text-start text-uppercase">
+                                    <p>Có nên đi
+                                        du lịch An Giang dịp tết âm
+                                        lịch hay không?</p>
+                                </strong>
+
+
+                                <small>
+                                    <p class="text-light text-start mb-0">22/11/2022</p>
+                                </small>
+                                <small class="text-start fs-6">
+                                    <p>Trong chuyến du lịch Tết này, Những địa điểm du lịch này sẽ
+                                        mang đến cho bạn những trải nghiệm thật tuyệt vời...</p>
+                                </small>
+                                <div class="text-center">
+                                    <a class="button-end" href="">Xem Chi Tiết</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Câu giới Thiệu  -->
+        <div class="ps-5 pe-5 ms-5 me-5 bg-Warning mt-5 mb-5">
+            <strong id="first-content">
+                Không chỉ thu hút khách du lịch bằng vẻ đẹp dân dã, yên bình nhưng đầy quyến rũ, những địa
+                điểm tham quan ở
+                An Giang còn được gắn liền với nhiều câu chuyện huyền bí, khiến bất cứ du khách nào cũng
+                phải tò mò. Vậy
+                cùng lưu lại Cẩm nang kinh nghiệm du lịch An Giang từ A đến Z để chuẩn bị cho chuyến đi khám
+                phá vùng đất
+                huyền bí miền Tây nam bộ nào!
+            </strong>
+            <div class="space-of-element"></div>
+        </div>
+        <!-- Phần Welcom tói An Giang -->
+        <div class="container-fluid pt-5 pb-5  bg-Secondary">
+            <div class="row cols-12 ps-5 pe-5">
+                <div class="col-6 pt-5 mt-5  position-relative">
+                    <div>
+                        <h2 class="title">Chào Mừng Bạn Đến Với An Giang</h2>
+                        <div class="text">
+                            <p>An Giang thuộc miền Tây Nam Bộ Việt Nam và là một phần của Tứ giác Long Xuyên nên hay
+                                phải gánh chịu nhiều thiên tai lũ lụt. Tuy nhiên, đó cũng là lợi thế khiến nơi đây
+                                đất đai phù sa màu mỡ. Sản sinh ra những cánh đồng lúa tươi tốt, bạt ngàn. An Giang
+                                còn là tỉnh đông dân nhất miền Tây Nam Bộ, có truyền thống văn hóa đặc trưng
+                                của miền Tây sông nước với chợ nổi và nhiều di tích như: núi Sam, rừng tràm Trà
+                                Sư, hồ Thoại Sơn, miễu Bà Chúa Xứ…&nbsp;</p>
+                        </div>
+                        <div class="text-center">
+                            <a class="button-end" href="">Đọc Thêm</a>
+                        </div>
+                        <img id="img-top" class="position-absolute"
+                            src="http://cdn.tgdd.vn/Files/2021/06/28/1363875/kham-pha-10-dia-diem-du-lich-hap-dan-tai-an-giang-thu-hut-du-khach-202106281518155043.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <img id="img-123" src="https://www.vietnambooking.com/wp-content/uploads/2020/07/ho-ta-pa-7.jpg"
+                        alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Phần Blog 4 ô -->
+        <div class="container-fluid bg-dark pt-5 pb-5">
+            <div class="row cols-12">
+                <div class="col-6">
+                    <h2>Kinh Nghiệm Du Lịch</h2>
+                    <div class="element-blog-2">
+                        <div class="container-all-of-element w-50">
+                            <div class=" border border-1 border-gray ps-1 pe-1 m-1">
+                                <div class="container-img-blog-2">
+                                    <img class="w-100 pt-2 ms-3"
+                                        src="https://cdn.alongwalker.co/info/wp-content/uploads/2022/03/23233953/image-30-dia-diem-du-lich-an-giang-dep-me-ly-hap-dan-du-khach-164802839385672.jpg"
+                                        alt="">
+                                </div>
+                                <small>December 7, 2022</small>
+                                <h4 class="text-light text-start ps-4 pe-3 fs-4">Top 20 địa điểm đi chơi lễ tết đẹp nhất
+                                    ở An Giang
+                                </h4>
+                                <small class="text-start">
+                                    <p class="text-light ps-4 pe-3 ">Bạn sẽ phải trầm trồ thích thú khi được ngắm nhìn
+                                        phong cảnh
+                                        của
+                                        những địa điểm này đấy</p>
+                                </small>
+                                <div class="text-center">
+                                    <a class="button-end" href="">Đọc Thêm</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="container-all-of-element w-50">
+                            <div class=" border border-1 border-gray ps-1 pe-1 m-1">
+                                <div class="container-img-blog-2">
+                                    <img class="w-100 pt-2"
+                                        src="https://www.vietnambooking.com/wp-content/uploads/2022/10/du-lich-tet-nguyen-dan-2023-10.jpg"
+                                        alt="">
+                                </div>
+                                <small>December 7, 2022</small>
+                                <h4 class="text-light text-start ps-4 pe-3 fs-4">Du lịch An Giang Tết 2023 cần mang theo
+                                    gì
+                                </h4>
+                                <small class="text-start">
+                                    <p class="text-light ps-4 pe-3 ">Bạn sẽ phải trầm trồ thích thú khi được ngắm nhìn
+                                        phong
+                                        cảnh
+                                        của
+                                        những địa điểm này đấy</p>
+                                </small>
+                                <div class="text-center">
+                                    <a class="button-end" href="">Đọc Thêm</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <h2>Ẩm Thực Du Lịch</h2>
+                    <div class="element-blog-2">
+                        <div class="container-all-of-element w-50">
+                            <div class=" border border-1 border-gray ps-1 pe-1 m-1">
+                                <div class="container-img-blog-2">
+                                    <img class="w-100 pt-2"
+                                        src="https://disantrangan.vn/wp-content/uploads/2021/05/Dac_san_an_giang.jpg"
+                                        alt="">
+                                </div>
+                                <small>December 7, 2022</small>
+                                <h4 class="text-light text-start ps-4 pe-3 fs-4">Top 10 món ăn ĐẶC SẢN ở An Giang không
+                                    thể
+                                    bỏ lỡ</h4>
+                                <small class="text-start">
+                                    <p class="text-light ps-4 pe-3 ">Bạn sẽ phải trầm trồ thích thú khi được ngắm nhìn
+                                        phong
+                                        cảnh
+                                        của
+                                        những địa điểm này đấy</p>
+                                </small>
+                                <div class="text-center">
+                                    <a class="button-end" href="">Đọc Thêm</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="container-all-of-element w-50">
+                            <div class=" border border-1 border-gray ps-1 pe-1 m-1">
+                                <div class="container-img-blog-2">
+                                    <img class="w-100 pt-2" src="https://toplist.vn/images/800px/uni-bbq-167435.jpg"
+                                        alt="">
+                                </div>
+                                <small>December 7, 2022</small>
+                                <h4 class="text-light text-start ps-4 pe-3 fs-4">Những quán ăn NGON BỔ RẺ NHẤT ở An
+                                    Giang
+                                </h4>
+                                <small class="text-start">
+                                    <p class="text-light ps-4 pe-3 ">Bạn sẽ phải trầm trồ thích thú khi được ngắm nhìn
+                                        phong
+                                        cảnh
+                                        của
+                                        những địa điểm này đấy</p>
+                                </small>
+                                <div class="text-center">
+                                    <a class="button-end" href="">Đọc Thêm</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- Phần Blog 3 ô -->
+        <div class="container-fluid bg-Secondary pt-5 pb-5">
+            <div class="row cols-12 justify-content-center">
+                <div
+                    class="col-3 text-center position-relative  border border-1 border-gray pb-4 ps-2 pe-2 pt-3 pb-5 me-4">
+                    <div class="container-img-blog-3">
+                        <img class="w-100 pt-2"
+                            src="https://thamhiemmekong.com/wp-content/uploads/2020/01/Ch%C3%B9a-Hang.jpg" alt="">
+                    </div>
+                    <div class="top-50 ps-1 text-start pt-3">
+                        <h2 class="text-light fw-bold text-uppercase text-dark fs-3">Những địa điểm check in đẹp nhất An
+                            Giang</h2>
+                        <small>
+                            <p class="text-light fw-bold text">Cuộc sống là để trải nghiệm, hãy cùng bạn bè đến và cùng
+                                " Check In " sống ảo nào ..... </p>
+                        </small>
+                    </div>
+                </div>
+                <div class="col-3 text-center position-relative  border border-1 border-gray pb-4 ps-2 pe-2 pt-3 pb-5">
+                    <div class="container-img-blog-3">
+                        <img class="w-100 pt-2"
+                            src="https://www.vietnambooking.com/wp-content/uploads/2020/07/chua-huynh-dao-5.jpg" alt="">
+                    </div>
+                    <div class="top-50 ps-1 text-start pt-3">
+                        <h2 class="text-light fw-bold text-uppercase text-dark fs-3">Top 3 địa điểm thu hút du khách
+                            nhất Việt Nam
+                            ở An Giang</h2>
+                        <small>
+                            <p class="text-light fw-bold text">Bạn đang thắc mắc, mọi người tại sao lại đến An Giang,
+                                thì bài viết này sẽ tiết lộ cho bạn tất cả những " Bí Mật " đó</p>
+                        </small>
+                    </div>
+                </div>
+                <div
+                    class="col-3 text-center position-relative  border border-1 border-gray pb-4 ps-2 pe-2 pt-3 pb-5 ms-4">
+                    <div class="container-img-blog-3">
+                        <img class="w-100 pt-2"
+                            src="https://inhat.vn/wp-content/uploads/2022/05/resort-An-Giang1-min.jpg" alt="">
+                    </div>
+                    <div class="top-50 ps-1 text-start pt-3">
+                        <h2 class="text-light fw-bold text-uppercase text-dark fs-3">Điểm mặt 5 resort đẹp nhất, sang
+                            nhất An Giang
+                        </h2>
+                        <small>
+                            <p class="text-light fw-bold text">Everything you need to know</p>
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </main>
+
+    <footer class="container bg-light  text-center footer">
+
+        <div class="container-4">
+            <section class="row">
+                <div class="col">
+                    <h5 class="text-uppercase">THÔNG TIN LIÊN HỆ</h5>
+                    <ul class="list-unstyled">
+                        <li class="text-dark">Số Điện Thoại: 123456789</li>
+                        <li class="text-dark">Địa chỉ:Đường 3/2, Ninh Kiều .Cần Thơ</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5 class="text-uppercase">HỖ TRỢ</h5>
+                    <ul class="list-unstyled">
+                        <li class="text-dark">Số Điện Thoại: 123456789</li>
+                        <li class="text-dark">Địa chỉ:Đường 3/2, Ninh Kiều .Cần Thơ</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="icon-footer">
+                <i class="fa fa-facebook-f"></i>
+                <i class="fa fa-google"></i>
+                <i class="fa fa-twitter"></i>
+                <button class="btn"><a href="#">Về Đầu Trang</a></button>
+            </section>
+        </div>
+        <div>
+            <i>@ bản quyền thuộc..</i>
+        </div>
+
+    </footer>
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+
+</html>
