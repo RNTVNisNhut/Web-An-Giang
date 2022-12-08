@@ -24,3 +24,30 @@ main
 {
     padding-left: 50px;
 }
+.button-end
+{
+    margin-top: 2%;
+    display: inline-block;
+    /* color: white; */
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 2px;
+    border: solid 1px #cc990e;
+    background-color: #fff;
+    padding: 7px 20px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.button-end:hover
+{
+    background-color: #cc990e;
+    border-color: #cc990e;
+    color: #fff;
+}
+#icon-social:hover
+{
+    color: #cc990e;
+    /* background-color: #cc990e; */
+    /* border-color: #cc990e; */
+    /* color: #fff; */
+}

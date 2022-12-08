@@ -122,12 +122,12 @@
 
     <main>
       <!-- Phần liên hệ  -->
-      <h2 class="text-align-center pt-5 ps-5 ">BẠN CẦN HỖ TRỢ</h2>
+      <h1 class="text-align-center pt-5 ps-5 ">BẠN CẦN HỖ TRỢ</h1>
       <div class="container pt-5">
         <div class="row cols-12">
           <!-- Thông tin liên hệ -->
-          <div id="content-left" class="col-12 col-md-6">
-            <h3>THÔNG TIN LIÊN HỆ</h3>
+          <div class="col-12 col-lg-6">
+            <h2>THÔNG TIN LIÊN HỆ</h2>
             <div class="address-left">
               <i class="fas fa-map-marker-alt p-2 "></i>
               <p>Đại Học Cần Thơ - Trường Đại Học Công Nghệ Thông Tin - Nhập Môn Lập Trình Web - Nhóm 14 -
@@ -150,14 +150,14 @@
               <p> Quý khách có thắc mắc, cần hỗ trợ, hãy liên hệ với chúng tôi bằng cách điền thông tin vào form</p>
             </div>
             <div class="pt-4 d-flex justify-content-around pb-4">
-              <a class="text-light fs-1" href="https://fb.com/" target="_blank" rel="sponsored"><i
-                  class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
-              <a class="text-light fs-1" href="https://www.instagram.com/" target="_blank"><i
-                  class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
-              <a class="text-light fs-1" href="https://twitter.com/" target="_blank"><i
-                  class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
-              <a class="text-light fs-1" href="https://www.linkedin.com/" target="_blank"><i
-                  class="fab fa-linkedin fa-sm fa-fw"></i></a>
+              <a  class="text-light fs-1" href="https://fb.com/" target="_blank" rel="sponsored"><i
+                  id="icon-social" class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+              <a  class="text-light fs-1" href="https://www.instagram.com/" target="_blank"><i
+                  id="icon-social" class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+              <a  class="text-light fs-1" href="https://twitter.com/" target="_blank"><i
+                  id="icon-social" class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+              <a  class="text-light fs-1" href="https://www.linkedin.com/" target="_blank"><i
+                  id="icon-social" class="fab fa-linkedin fa-sm fa-fw"></i></a>
             </div>
             <div class="d-flex justify-content-around">
               <p>Facebook</p>
@@ -166,10 +166,12 @@
               <p>Linkedin</p>
             </div>
           </div>
-
+          <div id="content-left" class="d-none col-lg-1 d-lg-block">
+            <p> </p> 
+          </div>
           <!-- Phần thông tin và phần muốn nói  -->
-          <div id="content_right" class="col-12 col-md-6">
-            <h3>LIÊN HỆ CHÚNG TÔI</h3>
+          <div class="col-12 col-md-5">
+            <h2 class="pt-5 pt-lg-0 ">LIÊN HỆ CHÚNG TÔI</h2>
             <div>
               <p class="pt-3">* Họ và Tên</p>
               <input style="width: 80%;" class="rounded-1 p-2" type="text" placeholder="Tên đầy đủ">
@@ -180,15 +182,14 @@
             </div>
             <div>
               <p class="pt-3">* Tin Nhắn</p>
-              <textarea class="rounded-1 p-2" name="" id="" cols="40" rows="5"
+              <textarea class="rounded-1 p-2" name="" id="" cols="33" rows="5"
                 placeholder="Hãy nói cho chúng tôi biết vấn đề của bạn..."></textarea>
               <!-- <input class="rounded-1 p-2" type="text" placeholder=""> -->
 
             </div>
-            <button class="p-2 mt-3 rounded-1 mb-4"> Gửi Ngay</button>
+            <button class="button-end"> Gửi Ngay</button>
           </div>
         </div>
-
       </div>
 
       <!-- Đăng ký nhận thông tin khuyến mãi -->

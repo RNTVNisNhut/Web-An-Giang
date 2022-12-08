@@ -39,7 +39,7 @@ font-size: 13px;
 }
 .cost-real
 {
-    font-size: 30px;
+    font-size: 10%;
     font-weight: bold;
     color: #fc0;
 }
@@ -88,30 +88,30 @@ font-size: 13px;
 {
     display: flex;
 }
-#find-main
+/* #find-main
 {
     padding: 10px;
     padding-bottom: 39px;
-}
+} */
 
-#container-form
+/* #container-form
 {
     background-color: #006886;
     width: 56%;
     height: 19%;
     margin-left: 23%;
-}
-#input-find-name
+} */
+/* #input-find-name
 {
     height: 50%;
     padding-right: 38%;
-}
-#button-search
+} */
+/* #button-search
 {
     margin-top: 5%;
     margin-left: 2%;
 
-}
+} */
 .button-find-where
 {
     width: 104%;
@@ -129,6 +129,10 @@ font-size: 13px;
 #element-
 {
     height: 100%;
+}
+#element-:hover
+{
+    box-shadow: 4px 4px 4px 4px grey;
 }
 .img-element
 {
